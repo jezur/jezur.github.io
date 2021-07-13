@@ -5,7 +5,7 @@ change as you wish.
 ```bash
 $ git clone https://github.com/jezur/jezur.github.io
 ```
-I could enable mathematical notation using **MathJax** by adding a copy of the 
+I could enable *Latex mathematical syntax* using **MathJax** by adding a copy of the 
 [`_includes/head.html` file](_includes/head.html) from the 
 [minima theme](https://github.com/jekyll/minima) to my `_includes` folder. 
 If you are using a jekyll theme, you can get the location of 
@@ -27,3 +27,12 @@ of the **minima** theme.
   {% include mathjax_support %}
 {% endif %}
 ```
+
+Then, wherever you use the *Latex syntax* you add this to the header of the 
+markdown file:
+```markdown
+---
+...
+use_math = true
+---
+``` 
