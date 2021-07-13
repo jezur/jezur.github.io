@@ -6,7 +6,7 @@ permalink: /about/
 
 Aspiring scientist. Multidisciplinary engineer with 4 years of
 research experience in computational chemistry, molecular biology 
-and chemical analysis. Currently I have a great interest for 
+and chemical analysis. Currently I have a great interest in 
 modeling complex and dynamical systems. I :heart:
 math and am very passionate about physics and its applications 
 to biology. I enjoy abstract thinking.
