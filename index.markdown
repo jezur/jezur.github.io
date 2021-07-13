@@ -5,4 +5,5 @@
 layout: home
 ---
 
-Hey there! :space_invader: My posts are all bellow. Please check them out. 
+Hey there! :space_invader: My posts are all bellow. Please check them out. You can access
+the repo [`here`](https://github.com/jezur/jezur.github.io).
