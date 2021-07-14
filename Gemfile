@@ -16,6 +16,12 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'jemoji'
+  gem "webrick"
+  gem 'jekyll-toc'
+  #gem "kramdown-syntax-coderay", "~> 1.0"
+  gem 'jekyll-katex'
+  gem 'ffi'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -27,9 +33,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# Se supone que esto va a ayudar
-gem 'jemoji'
-gem "webrick"
-gem 'jekyll-toc'
-gem "kramdown-syntax-coderay", "~> 1.0"

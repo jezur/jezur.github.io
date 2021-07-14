@@ -33,11 +33,12 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-toc
+  - jekyll-katex
 
 markdown: kramdown
-  #kramdown:
+kramdown:
   #- input: GFM
-  #- math_engine: mathjax
+  #- math_engine: katex
 
 # Exclude from processing.
 # The following items will not be processed, by default.
