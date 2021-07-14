@@ -42,11 +42,11 @@ of the **minima** theme.
 {% endif %}
 ```
 
-Then, wherever you use the *Latex syntax* you add this to the header of the 
+Then, wherever you use the *Latex syntax* add this to the YAML front matter of the 
 markdown file:
 ```markdown
 ---
 ...
-use_math = true
+usemathjax = true
 ---
 ``` 
