@@ -12,14 +12,18 @@
   {% if page.usemathjax %}
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      TeX: { equationNumbers: {autoNumber: "AMS"} },
-      tex2jax: {inlineMath: [ ['$','$'], ['\\(', '\\)'] ], processEscapes: true,}
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {inlineMath: [ ['$','$'], ['\\(', '\\)'] ], 
+      		displayMath: [ ['$$','$$'], ["\\[","\\]"] ], 
+      		processEscapes: true,}
     });
   </script>
   <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
   {% endif %}
-  <!-- one day KTEX maybe? -->
+  <!-- one day KTEX maybe?
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" 
    	    integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" 
@@ -29,4 +33,5 @@
 	    integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" 
 	    crossorigin="anonymous"
             onload="renderMathInElement(document.body);"></script> 
+    -->
 </head>
