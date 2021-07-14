@@ -32,12 +32,14 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-toc
 
-# markdown: kramdown
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

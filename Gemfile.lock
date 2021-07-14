@@ -46,6 +46,9 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.7.1)
       jekyll (>= 3.8, < 5.0)
+    jekyll-toc (0.17.1)
+      jekyll (>= 3.9)
+      nokogiri (~> 1.11)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.12.0)
@@ -97,13 +100,14 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
+  jekyll-toc
   jemoji
   kramdown-syntax-coderay (~> 1.0)
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
-  webrick (~> 1.7)
+  webrick
 
 BUNDLED WITH
    2.2.23
