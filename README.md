@@ -15,8 +15,8 @@ all the files of the theme by using
 $ bundle info --path THEMENAME
 ```
 
-I added an *if statement* at the end of the `head.html` file that includes the 
-latest [mathjax support](http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML)
+I added an *if statement* at the end of the `head.html` file that includes A 
+[mathjax support](https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML)
 file whith some configurations. I used the configurations found in the 
 file `_includes/mathjax_support` from [*Haixing-Hu*'s repository](https://github.com/Haixing-Hu/Haixing-Hu.github.io), 
 and also read [this comment by *sudhirln92*](https://github.com/mmistakes/minimal-mistakes/issues/735),
