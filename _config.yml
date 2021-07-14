@@ -36,8 +36,8 @@ plugins:
 
 markdown: kramdown
 kramdown:
-  #- input: GFM
-  math_engine: mathjax
+  - input: GFM
+  - math_engine: mathjax
 
 # Exclude from processing.
 # The following items will not be processed, by default.
