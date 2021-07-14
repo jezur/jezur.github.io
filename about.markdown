@@ -11,8 +11,8 @@ modeling complex and dynamical systems. I :heart:
 math and am very passionate about physics and its applications 
 to biology. I enjoy abstract thinking.
 
-![Lorenz Attractor](/img/lorenz_attractor_crop.png)
+![Lorenz Attractor](/assets/img/lorenz_attractor_crop.png)
 
 The plot to the Lorenz attractor was made using `Python`. If you like
-it, please check my [post about attractors](./_posts/2021-07-12-lorenz.md). There is also a 
+it, please check my [post about attractors]({% link _posts/2021-07-12-lorenz.md %}). There is also a 
 `Julia` version too in case you are into it.
