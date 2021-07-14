@@ -15,7 +15,7 @@ all the files of the theme by using
 $ bundle info --path THEMENAME
 ```
 
-I added an *if statement* at the end of the `head.html` file that includes A 
+I added an *if statement* at the end of the `head.html` file that includes a 
 [mathjax support](https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML)
 file whith some configurations. I used the configurations found in the 
 file `_includes/mathjax_support` from [*Haixing-Hu*'s repository](https://github.com/Haixing-Hu/Haixing-Hu.github.io), 
